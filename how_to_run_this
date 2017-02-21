@@ -1,0 +1,5 @@
+install dependencies:
+     $ cd piggybank_monitor && npm install
+
+run the app:
+     $ DEBUG=piggybank-monitor:* npm start
