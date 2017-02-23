@@ -8,12 +8,11 @@ var mongoose = require('mongoose');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var Deposit = require('./models/deposit');
 
 var app = express();
 
 //Configure Database
-mongoose.connect('mongodb://localhost/piggybank');
+mongoose.connect('mongodb://localhost/piggybank');		
 
 
 // view engine setup
